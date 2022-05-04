@@ -1,7 +1,8 @@
 {
   "Post": {
     "cover": {
-      "regexp": "https://i\\.pravatar\\.cc/3000/?u=[0-9]{5}"
+
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "company": { "string": {}},
     "CompanySuffix": {
