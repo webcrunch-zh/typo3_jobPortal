@@ -4,8 +4,8 @@
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
     "company": { "string": {}},
-    "tag": {
-      "CompanySuffix": [
+    "CompanySuffix": {
+      "string": [
         "",
         "AG",
         "GmbH"
