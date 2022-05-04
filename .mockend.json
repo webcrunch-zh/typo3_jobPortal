@@ -1,7 +1,7 @@
 {
   "Post": {
     "cover": {
-      "regexp": "https://i\\.pravatar\\.cc/300?u=[0-9]{5}"
+      "regexp": "https://i\\.pravatar\\.cc/3000?u=[0-9]{5}"
     },
     "company": { "string": {}},
     "CompanySuffix": {
