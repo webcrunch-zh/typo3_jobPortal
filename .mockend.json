@@ -1,7 +1,7 @@
 {
   "Post": {
     "cover": {
-      "regexp": "https://picsum.photos/200/300.webp"
+      "regexp": "https://picsum.photos/300/300?random=1"
     },
     "company": { "string": {}},
     "CompanySuffix": {
