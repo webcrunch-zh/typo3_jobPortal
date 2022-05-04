@@ -3,7 +3,7 @@
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    "company": { "string": {} ["one","two","three"] }
+    "company": { "string": {} }
     "title": {
       "loremWords": {
         "minLength": 5,
