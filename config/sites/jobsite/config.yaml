@@ -1,0 +1,17 @@
+base: 'https://typo3jobs.ddev.site/'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: de
+    locale: de_CH.utf8
+    iso-639-1: de
+    navigationTitle: German
+    hreflang: ch-de
+    direction: ltr
+    flag: de
+    websiteTitle: ''
+rootPageId: 1
+websiteTitle: ''
