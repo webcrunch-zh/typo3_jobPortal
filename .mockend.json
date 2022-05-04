@@ -4,10 +4,7 @@
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
     "company": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 16
-      }
+      { "string": {} }
     },
     "title": {
       "loremWords": {
