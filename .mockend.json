@@ -5,7 +5,7 @@
     },
     "company": { "string": {}},
     "tag": {
-      "string": [
+      "CompanySuffix": [
         "",
         "AG",
         "GmbH"
