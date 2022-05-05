@@ -21,10 +21,7 @@
         "industry_id": {
             "int": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
         },
-        "publication_date": {
-            "min": "2022-01-01T00:00:00Z",
-            "max": "2022-04-01T23:59:59Z"
-        },
+
         "place": {
             "loremWords": { "minLength": 5, "maxLength": 10 }
         },
@@ -43,10 +40,7 @@
         "template_contact_address": {
             "loremParagraphs": { "minLength": 100, "maxLength": 200 }
         },
-        "publication_end_date": {
-            "min": "2022-01-01T00:00:00Z",
-            "max": "2022-04-01T23:59:59Z"
-        },
+
         "is_active": { "boolean": {} }
     }
 }
