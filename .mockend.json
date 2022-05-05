@@ -7,7 +7,7 @@
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
         "job_id": {
-            "regexp": "j_[A-Z][a-z]{5,10}"
+            "regexp": "j_[a-z][a-z]{5,10}"
         },
         "title": {
             "loremWords": { "minLength": 12, "maxLength": 20 }
@@ -16,7 +16,7 @@
             "loremWords": { "minLength": 5, "maxLength": 10 }
         },
         "company_id": {
-            "regexp": "c_[A-Z][a-z]{5,10}"
+            "regexp": "c_[a-z][a-z]{5,10}"
         },
         "industry_id": {
             "int": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -51,6 +51,15 @@
                 "max": "2022-04-01T23:59:59Z"
             }
         },
-        "is_active": { "boolean": {} }
+        "is_active": { "boolean": {} },
+        "locations": {
+            "hasMany": "Locations"
+        },
+        "Locations": {
+            "body": { "string": {} },
+            "post": {
+                "belongsTo": "Post"
+            }
+        }
     }
 }
