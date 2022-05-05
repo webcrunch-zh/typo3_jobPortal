@@ -1,5 +1,5 @@
 {
     "Post": {
-        "name": { "regexp": "[a-z0-9]+(?:-[a-z0-9]+)*" }
+        "name": { "regexp": "[a-z0-9]" }
     }
 }
