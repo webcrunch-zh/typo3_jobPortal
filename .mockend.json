@@ -54,9 +54,11 @@
         "is_active": { "boolean": {} },
         "locations": {
             "hasMany": "Locations"
-        },
-        "Locations": {
-            "ort": { "string": {} }
+        }
+    },
+    "Locations": {
+        "authorPost": {
+            "belongsTo": "Post"
         }
     }
 }
