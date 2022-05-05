@@ -56,7 +56,7 @@
             "hasMany": "Locations"
         },
         "Locations": {
-            "body": { "string": {} },
+            "ort": { "string": {} },
             "post": {
                 "belongsTo": "Post"
             }
