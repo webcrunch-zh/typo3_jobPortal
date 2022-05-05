@@ -32,6 +32,12 @@
         "slug": { "loremWord": {} },
         "source_hostname": {
             "string": ["jobs.ch", "monster.ch", "jobscout24.ch"]
+        },
+        "place": {
+            "loremWord": {}
+        },
+        "street": {
+            "loremWord": {}
         }
     }
 }
