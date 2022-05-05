@@ -1,5 +1,5 @@
 {
-    "Job": {
-        "slug": { "regexp": "[A-Z][a-z]{5,10}" }
+    "Post": {
+        "title": { "string": {} }
     }
 }
