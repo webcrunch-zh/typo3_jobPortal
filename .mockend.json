@@ -8,11 +8,14 @@
             "string": ["", "AG", "GmbH"]
         },
 
-        "industry_id": [
-            "Administration / HR / Consulting / CEO",
-            "Banking / Versicherungswesen",
-            "Bau / Architektur / Engineering"
-        ],
+        "industry_id": {
+            "string": [
+                "Administration / HR / Consulting / CEO",
+                "Banking / Versicherungswesen",
+                "Bau / Architektur / Engineering"
+            ]
+        },
+
         "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
         "title": {
             "loremWord": {}
@@ -27,6 +30,8 @@
         "company_visible": { "boolean": {} },
         "company_slug": { "loremWord": {} },
         "slug": { "loremWord": {} },
-        "source_hostname": ["jobs.ch", "monster.ch", "jobscout24.ch"]
+        "source_hostname": {
+            "string": ["jobs.ch", "monster.ch", "jobscout24.ch"]
+        }
     }
 }
