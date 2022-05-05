@@ -1,7 +1,16 @@
 {
     "Post": {
-        "name": {
+        "slug": {
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
+        },
+        "compamny_slug": {
+            "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
+        },
+        "job_id": {
+            "regexp": "[A-Z][a-z]{5,10}"
+        },
+        "title": {
+            "loremWords": { "minLength": 5, "maxLength": 20 }
         }
     }
 }
