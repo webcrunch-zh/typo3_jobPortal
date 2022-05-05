@@ -57,6 +57,7 @@
         }
     },
     "Locations": {
+        "body": { "string": {} },
         "authorPost": {
             "belongsTo": "Post"
         }
