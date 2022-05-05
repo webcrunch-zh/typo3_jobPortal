@@ -1,43 +1,5 @@
 {
-    "Post": {
-        "cover": {
-            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-        },
-        "company": { "string": {} },
-        "companySuffix": {
-            "string": ["", "AG", "GmbH"]
-        },
-
-        "industry_id": {
-            "string": [
-                "Administration / HR / Consulting / CEO",
-                "Banking / Versicherungswesen",
-                "Bau / Architektur / Engineering"
-            ]
-        },
-
-        "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-        "title": {
-            "loremWord": {}
-        },
-        "createdAt": {
-            "dateTime": {
-                "min": "2022-04-01T00:00:00Z",
-                "max": "2022-05-05T23:59:59Z"
-            }
-        },
-        "job_id": { "regexp": "[0-9][0-9][0-9][0-9][0-9][0-9]{5,10}" },
-        "company_visible": { "boolean": {} },
-        "company_slug": { "loremWord": {} },
-        "slug": { "loremWord": {} },
-        "source_hostname": {
-            "string": ["jobs.ch", "monster.ch", "jobscout24.ch"]
-        },
-        "place": {
-            "loremWord": {}
-        },
-        "street": {
-            "loremWord": {}
-        }
+    "Job": {
+        "slug": "[A-Z][a-z]{5,10}"
     }
 }
