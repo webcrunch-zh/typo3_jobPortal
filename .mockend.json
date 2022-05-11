@@ -3,7 +3,14 @@
         "slug": {
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
-        
+        {
+  "name": {
+    "string": [
+      "Thor",
+      "Loki"
+    ]
+  }
+},
         "compamny_slug": {
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
