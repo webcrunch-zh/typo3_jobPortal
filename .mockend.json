@@ -4,7 +4,7 @@
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
         {
-  "zzz": {
+  "name": {
     "string": [
       "Thor",
       "Loki"
