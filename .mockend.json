@@ -4,10 +4,22 @@
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
         
-  "name": {
+  "categorie": {
     "string": [
-      "Thor",
-      "Loki"
+      "Kategorie 1",
+      "Kategorie 2",
+        "Kategorie 3",
+        "Kategorie 4",
+    ]
+  
+},
+        
+        
+        "type": {
+    "string": [
+      "Teilzeit",
+      "Vollzeit",
+        "Freeelancer"
     ]
   
 },
