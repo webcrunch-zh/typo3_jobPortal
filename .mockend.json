@@ -13,6 +13,16 @@
     ]
   
 },
+
+        
+        "type": {
+    "string": [
+      "Vollzeit",
+      "Teilzeit",
+        "Freelancer"
+    ]
+  
+},
         
         
       
