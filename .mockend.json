@@ -3,6 +3,7 @@
         "slug": {
             "regexp": "[a-z][a-z]{5,15}-[a-z][a-z]{5,15}-[a-z][a-z]{5,15}"
         },
+        
         "name": {
     "string": [
       "Teilzeit",
@@ -16,7 +17,7 @@
       "Kategorie 1",
       "Kategorie 2",
         "Kategorie 3",
-        "Kategorie 4",
+        "Kategorie 4"
     ]
   },
         "compamny_slug": {
