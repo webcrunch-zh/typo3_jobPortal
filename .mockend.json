@@ -588,7 +588,7 @@
                 "max": "2022-04-01T23:59:59Z"
             }
         },
-        "is_active": { "boolean": {} },
-        "is_premium": { "boolean": {} }
+        "active": { "boolean": {} },
+        "premium": { "boolean": {} }
     }
 }
