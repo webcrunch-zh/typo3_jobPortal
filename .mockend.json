@@ -33,7 +33,28 @@
             "regexp": "j_[a-z][a-z]{5,10}"
         },
         "title": {
-            "loremWords": { "minLength": 12, "maxLength": 20 }
+            "string": [
+                "Computer Scientist",
+                "IT Professional",
+                "UX Designer & UI Developer",
+                "SQL Developer",
+                "Web Designer",
+                "Web Developer",
+                "Help Desk Worker/Desktop Support",
+                "Software Engineer",
+                "Data Entry",
+                "DevOps Engineer",
+                "Computer Programmer",
+                "Network Administrator",
+                "Information Security Analyst",
+                "Artificial Intelligence Engineer",
+                "Cloud Architect",
+                "IT Manager",
+                "Technical Specialist",
+                "Application Developer",
+                "Chief Technology Officer (CTO)",
+                "Chief Information Officer (CIO)"
+            ]
         },
         "company_name": {
             "loremWords": { "minLength": 5, "maxLength": 10 }
