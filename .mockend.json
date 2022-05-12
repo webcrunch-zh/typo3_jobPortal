@@ -256,7 +256,7 @@
             "loremWords": { "minLength": 5, "maxLength": 10 }
         },
         "street": {
-            "loremWords": [
+            "string": [
                 
                 
                 " Aebistrasse 26 ",
